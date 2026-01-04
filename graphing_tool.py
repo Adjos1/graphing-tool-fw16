@@ -262,7 +262,7 @@ while not (isfloat(Maxy) and isfloat(Miny) and float(Miny) < float(Maxy) or Maxa
     else:
         Auto = 1
 while not(isint(CalculationsPerPixel) and int(CalculationsPerPixel) > 0):
-    print("how many calculations should be made per Pixel?(recommended: odd, must be: int > 0, a for 1)")
+    print("how many values should be calculated per Pixel?(recommended: odd, must be: int > 0, a for 1)")
     CalculationsPerPixel = input()
     if CalculationsPerPixel == "a" or CalculationsPerPixel == "A":
         CalculationsPerPixel = 1
